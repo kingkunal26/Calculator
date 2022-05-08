@@ -45,7 +45,7 @@ stage('Push image to DockerHub') {
 	steps{
 
 
-    	bat "docker run -p 8082:8082 -i kingkunal26/calculator:17"
+    	bat "docker run -p 8082:8082 -i kingkunal26/calculator:3"
 
                  }
              }
