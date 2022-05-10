@@ -37,7 +37,7 @@ jobs:
         context: ./
         file: ./Dockerfile
         push: true
-        tags: docker4naman/sanphire_chat_frontend:latest
+        tags: kingkunal26/Calculator:latest
 
     - name: Image Digest
       run: echo ${{ steps.docker_build.outputs.digest }}
